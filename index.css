@@ -1,0 +1,565 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Inter", sans-serif;
+  }
+  
+  .nav {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    width: 70%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: center;
+    cursor: pointer;
+    
+  }
+  
+  .section-top {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .header {
+    
+    color: white;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+  }
+  
+  .btnSignUp {
+    padding: 12px 16px;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .hero-section {
+    padding: 80px 100px;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .span-india {
+    color: #629fe5;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  
+  .hero-section1 {
+    width: 75%;
+    color: white;
+  }
+  .hero-section1 h1 {
+    font-size: 70px;
+  }
+  .hero-section1 p {
+    padding-top: 8px;
+    width: 65%;
+    font-weight: 100;
+    line-height: 27px;
+    font-size: small;
+  }
+
+  .loadMoreBtn {
+    margin-top: 20px;
+    background-color: #05f;
+    border-radius: 12px;
+    padding: 14px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .hero-section2 {
+    width: 600px;
+  }
+  .customer {
+    text-align: center;
+    background-color: #f4f9fd;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .cust-heading {
+    font-size: 20px;
+    padding-bottom: 70px;
+  }
+  .logo-1 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    gap: 100px;
+  }
+  .logo-2 {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .page3{
+    margin-top: 70px;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://juspay.in/static/bg_circular_dotted_white.png);
+    background-position: 50% center;
+    background-repeat: no-repeat;
+    background-size: 57%;
+}
+
+  .page3{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.payments__header{
+    color: rgb(8, 36, 73);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    margin: -0.2em 0px 0px;
+}
+
+.header{
+    background-color: transparent;
+    color: black;
+    font-size: 2.8rem;
+    padding-left:90px ;
+    padding-top: 50px;
+}
+.heading{
+    margin: 0px 0px 1.45rem;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.icongrid1{
+    padding-left:150px ;
+    padding-right:150px ;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+.iconimg{
+    margin: 0;padding: 0;
+}
+
+.icongrid2{
+    padding-left:150px ;
+    padding-right:150px ;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+
+}
+
+.icontext{
+    color: #234ea4;
+    font-weight: 50;
+    font-size: x-large;
+    gap: 400px;
+}
+
+.icontext span{
+    font-size: large;
+}
+
+.icongrid4{
+    padding-left:150px ;
+    padding-right:150px ;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+
+  
+  .service .section-text { margin-block: 5px 35px; }
+  
+  .service-card {
+    background-color: rgba(27, 26, 26, 0.715);
+    padding-left:150px ;
+    padding-right:150px ;
+    padding-top: 50px;
+    
+    border: 1px solid hsl(0, 11%, 43%);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 6px 24px  rgba(92, 93, 98, 0.715);
+    transition: ease;
+    transition-duration: 0.5s;
+  }
+  
+  .service-card:is(:hover, :focus-within) { transform: translateY(-10px); }
+  
+  .service-card .card-icon {
+    color: varhsl(0, 0%, 100%);
+    font-size: 25px;
+    max-width: max-content;
+    margin-inline: auto;
+    padding: 18px;
+    border-radius: 50%;
+  }
+  
+  .service-card .card-title { margin-block: 50px 9px; }
+  
+  .service-card .card-text { font-size: 1.3rem; }
+
+  .page4{
+    width: 100vw;
+    height: 285vh;
+    background-color: #222428;
+    text-align: center;
+}
+
+  .p4h{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+}
+  
+  .headdiv4{
+    padding: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.flexpage4{
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+  .intflexp4{
+    display: flex;
+    gap: 100px;
+}
+
+.p1{
+    color: rgb(255, 255, 255);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-bottom: 1rem;
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+
+.hep4{
+    color: rgb(128, 163, 234);
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    margin-bottom: 1rem;
+}
+
+.p2{
+    color: rgb(255, 255, 255);
+    font-family: var(--font-body);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.9;
+}
+
+.p-{
+    font-size: x-large;
+    padding-top:100px ;
+    padding-left: 250px;
+    padding-right: 250px;
+    letter-spacing: 9px;
+    color: white;
+}
+
+.p4grid{
+    padding-top:100px ;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 250px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 50px;
+    
+}
+
+.bannergridp4:is(:hover, :focus-visible) {
+    transform: translateX(-10px);
+}
+
+.bannergridp4{
+    background: url(/product__insidebanner.png);
+    background-position: 50%;
+    background-size: cover;
+    background: #323646;
+    border: 1px solid #2d3036;
+    border-radius: 0.5rem;
+    max-width: 350px;
+    box-shadow: 6px 24px 0 #3a465f;
+}
+
+.gridheadp4 h1{
+    color: rgb(139, 158, 196);
+    font-size: 4rem;
+    letter-spacing: -0.03em;
+    
+}
+
+.gridheadp4 p{
+    color: rgb(255, 255, 255);
+    font-family: var(--font-body);
+    font-size: medium;
+    line-height: 1.9;
+    padding-right: 3rem;
+    
+}
+
+.gridheadp4 button{
+    background-color: rgb(238, 233, 233);
+    color: black;
+    margin-top: 1rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 14px 20px;
+    
+}
+
+.backgroundp4img{
+    left: -10.333%;
+    max-height: 95.9%;
+    position: absolute;
+}
+
+.Section-module--background--44dd6 {
+    bottom: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.homeproduct--bg {
+    left: -10.3333%;
+    max-height: 75.9%;
+    position: absolute;
+    top: 85.09%;
+}
+
+.devep h1{
+    margin-top: 60px;
+    font-size: 100px;
+    color: rgb(4, 4, 95);
+    margin-left: 150px;
+}
+
+.devep h2{
+    font-size: 80px;
+    color: rgb(137, 188, 242);
+    margin-left: 400px;
+}
+
+.developers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.developers .code{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 150px;
+    padding: 50px;
+}
+
+.developers .write {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 150px;
+    padding: 50px;
+}
+.developers .write h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.developers .write h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.developers .write h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.developers button{
+    background-color: rgb(98, 98, 208);
+    color: azure;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(51, 54, 79);
+    width: 100%;
+    height: 100%;
+}
+.footer .comp ul h1{
+    margin-top: 20px;
+    margin-left: 120px;
+    list-style: none;
+    margin-bottom: 50px;
+    color: #f4f9fd;
+}
+ 
+.footer .comp ul li{
+    margin: 10px;
+    margin-left: 120px;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    color:#629fe5
+}
+.footer .comp ul li:hover{
+    color: rgb(115, 68, 68);
+}
+
+.footer .product ul h1{
+    margin-top: 20px;
+    margin-left: 120px;
+    list-style: none;
+    margin-bottom: 50px;
+    color: #f4f9fd;
+}
+ 
+.footer .product ul li{
+    margin: 10px;
+    margin-left: 120px;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #629fe5;
+}
+
+.footer .product ul li:hover{
+    color: rgb(117, 54, 51);
+}
+
+.footer .resources ul h1{
+    margin-top: 20px;
+    margin-left: 120px;
+    list-style: none;
+    margin-bottom: 50px;
+    color: #f4f9fd;
+}
+ 
+.footer .resources ul li{
+    margin: 10px;
+    margin-left: 120px;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #629fe5;
+}
+
+.footer .resources ul li:hover{
+    color: rgb(115, 58, 58);
+}
+
+.footer .compliance ul h1{
+    margin-top: 20px;
+    margin-left: 120px;
+    list-style: none;
+    margin-bottom: 50px;
+    color: #f4f9fd;
+}
+ 
+.footer .compliance ul li{
+    margin: 10px;
+    margin-left: 120px;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #629fe5;
+}
+
+.footer .compliance ul li:hover{
+    color: rgb(123, 57, 57);
+}
+
+.footer .icons{
+    margin-top: 20px;
+    margin-left : 120px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #3a465f;
+}
+
+
+.footer .icons .bi-envelope-fill{
+    color: rgb(174, 76, 76);
+}
+
+.divi{
+    padding: 90px;
+    margin-left: 80px;
+}
+
+
